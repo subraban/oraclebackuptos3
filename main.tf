@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name     = "fdsfwef"
+  name     = "dsadasasd"
   location = "us-central1"
   storage_class = "STANDARD"
 }
@@ -13,5 +13,5 @@ resource "google_storage_bucket" "my_bucket" {
 resource "google_storage_bucket_object" "my_object" {
   name   = var.file1
   bucket = google_storage_bucket.my_bucket.name
-  source = "G:/LSCopy/var.file1"
+  source = "G:/LSCopy/DB2_20230621210001.trn"
 }
