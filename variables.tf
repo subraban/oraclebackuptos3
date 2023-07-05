@@ -1,5 +1,5 @@
-variable file1
+variable "file1"
 {
 type=string
-default="DB2_20230621210001.trn"
+default=["DB2_20230621210001.trn"]
 }
