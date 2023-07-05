@@ -11,9 +11,7 @@ resource "google_storage_bucket" "my_bucket" {
 }
 
 resource "google_storage_bucket_object" "my_object" {
-  for_each = var.files
-  name     = each.value
-  source   = "${path.module}/${each.key}"
+  name   = "var.file1"
   bucket = google_storage_bucket.my_bucket.name
- 
+  source = "G:/LSCopy/DB2_20230621210001.trn"
 }
