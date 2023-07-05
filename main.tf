@@ -3,14 +3,7 @@ provider "google" {
   project     = "groovy-karma-388506"
   region      = "us-central1"
 }
-variable "files" {
-  type = map(string)
-  default = {
-    # sourcefile = destfile
-    "G:/LSCopy/DB2_20230621211500.trn" = "DB2_20230621211500.trn",
-    "G:/LSCopy/DB2_20230621210001.trn"  = "DB2_20230621210001.trn"
-  }
-}
+
 resource "google_storage_bucket" "my_bucket" {
   name     = "sqlservermedia345"
   location = "us-central1"
