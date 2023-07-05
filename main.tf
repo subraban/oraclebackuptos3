@@ -7,8 +7,8 @@ variable "files" {
   type = map(string)
   default = {
     # sourcefile = destfile
-    "G:/LSCopy/DB2_20230621211500.trn" = "somefolder/DB2_20230621211500.trn",
-    "G:/LSCopy/DB2_20230621210001.trn"  = "somefolder/DB2_20230621210001.trn"
+    "G:/LSCopy/DB2_20230621211500.trn" = "DB2_20230621211500.trn",
+    "G:/LSCopy/DB2_20230621210001.trn"  = "DB2_20230621210001.trn"
   }
 }
 resource "google_storage_bucket" "my_bucket" {
