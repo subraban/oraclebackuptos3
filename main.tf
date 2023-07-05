@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name     = "dsadasasd"
+  name     = "fklfmsdfs"
   location = "us-central1"
   storage_class = "STANDARD"
 }
