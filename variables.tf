@@ -23,7 +23,7 @@ variable "files" {
   type = map(string)
   default = {
     # sourcefile = destfile
-    "G:/LSCopy/HR_20230606061500.trn" = "somefolder/HR_20230606061500.trn",
-    "G:/LSCopy/HR_20230606061120.trn"  = "somefolder/HR_20230606061120.trn"
+    "G:\LSCopy\HR_20230606061500.trn" = "somefolder/HR_20230606061500.trn",
+    "G:\LSCopy\HR_20230606061120.trn"  = "somefolder/HR_20230606061120.trn"
   }
 }
