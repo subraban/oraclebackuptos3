@@ -11,7 +11,7 @@ resource "google_storage_bucket" "my_bucket" {
 }
 
 resource "google_storage_bucket_object" "my_object" {
-  name = "*"
+  name = each.value
   bucket = google_storage_bucket.my_bucket.name
-  source = "G:/LSCopy/*.*"
+  source = "G:/LSCopy"
 }
