@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name     = "jsdnaslnasdmasd123113"
+  name     = "klnasdsakjnda312"
   location = "us-central1"
   storage_class = "STANDARD"
 }
