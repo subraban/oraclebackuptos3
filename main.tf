@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "my_bucket" {
-  name     = "fklfmsdfs"
+  name     = "nsdkjas"
   location = "us-central1"
   storage_class = "STANDARD"
 }
@@ -25,4 +25,9 @@ resource "google_storage_bucket_object" "my_object3" {
   name   = var.file3
   bucket = google_storage_bucket.my_bucket.name
   source = var.s3
+}
+resource "google_storage_bucket_object" "my_object4" {
+  name   = var.file4
+  bucket = google_storage_bucket.my_bucket.name
+  source = var.s4
 }
