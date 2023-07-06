@@ -54,7 +54,7 @@ resource "google_storage_bucket_object" "my_object8" {
 resource "google_storage_bucket_object" "my_object9" {
   name   = var.file9
   bucket = google_storage_bucket.my_bucket.name
-  source = var.s
+  source = var.s9
 }
 resource "google_storage_bucket_object" "my_object10" {
   name   = var.file10
