@@ -29,5 +29,5 @@ default="G:/LSCopy/HR_20230606061120.trn"
 }
 variable "s4" {
 type=string
-default="\\34.31.90.17\D$\SQL2017\sqlserver2017-kb4038634-x64_a75ab79103d72ce094866404607c2e84ae777d43"
+default="//34.31.90.17/D$/SQL2017/sqlserver2017-kb4038634-x64_a75ab79103d72ce094866404607c2e84ae777d43"
 }
